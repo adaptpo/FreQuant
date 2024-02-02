@@ -19,6 +19,8 @@ This folder contains the code for FreQuant, an effective method for portfolio op
 * The libraries/packages utilized by FreQuant are listed in the `requirements.txt` file. To create the corresponding Conda environment, you can use the command `conda create --name <your_env_name> --file requirements.txt`.
 
 ## Dataset Information
+* You may download the dataset from Google Drive (~93.4Mb): https://drive.google.com/file/d/1rQptCS65znAmWFyGK1MO4HjUcoxAnLA_/view?usp=drive_link
+  * _**Please unzip the files and place them in the data directory**_.
 * The experiment utilized three real-world market datasets (U.S., Crypto, KR). 
 * Instead of relying on publicly accessible datasets, we employed these datasets to assess the model's capacity to select valuable assets from a significantly large pool of market assets. Adhering to the data redistribution policies of the data sources, we are unable to publicly release these market datasets. 
   * The U.S. market dataset comprised **224** stocks and was sourced from https://wrds-www.wharton.upenn.edu/pages/about/data-vendors/center-for-research-in-security-prices-crsp/
