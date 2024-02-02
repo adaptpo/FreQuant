@@ -20,7 +20,7 @@ This folder contains the code for FreQuant, an effective method for portfolio op
 
 ## Dataset Information
 * You may download the dataset from Google Drive (~93.4Mb): https://drive.google.com/file/d/1rQptCS65znAmWFyGK1MO4HjUcoxAnLA_/view?usp=drive_link
-  * Please unzip the files and place them in the data directory.
+  * Please unzip the files and place it under the data directory.
 * The experiment utilized six real-world market datasets (U.S., KR, Crypto, CN, JP, U.K.).
 * Three datasets are publicly accessible through the provided URLs. We have updated the data period and the number of assets existing in the dataset for the purpose of enabling extensive experimentation with the longer test period to check the robustness, and with a larger action space to check the ability for dynamic selection.  
   * The CN stock market dataset comprised **34** stocks from https://github.com/TradeMaster-NTU/TradeMaster
