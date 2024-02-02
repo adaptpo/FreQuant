@@ -2,7 +2,7 @@
 This is a code for "FreQuant: A Reinforcement-Learning based Adaptive Portfolio Optimization with Multi-frequency Decomposition", submitted in KDD2024.
 
 ## Code Information
-All codes are written by Python 3.8 and PyTorch 1.13.1.
+All codes are written by Python 3.8.15 and PyTorch 1.13.1.
 This folder contains the code for FreQuant, an effective method for portfolio optimization using multi-frequency features. By utilizing historical price feature tensors of both assets and the market, FreQuant adeptly manages portfolios by explicitly incorporating multi-frequency features to identify individual assets. 
 
 
@@ -16,16 +16,16 @@ This folder contains the code for FreQuant, an effective method for portfolio op
     * `utils.py`: the code containing some util methods.
     * `mysql.py`: the code for reading/preprocessing asset price data, including the File I/O for the csv files.
     * `experiment.py`: the code for conducting experiments. Experiment class contains multiple useful methods for the analysis.
-* The libraries/packages utilized by FreQuant are listed in the `requirements.txt` file. To create the corresponding Conda environment, you can use the command `conda create --name <your_env_name> --file requirements.txt`.
+* The libraries/packages utilized by FreQuant are listed in the `environment.yaml` file. To create the corresponding Conda environment, you can use the command `conda env create -n <your_env_name> -f environment.yaml`.
 
 ## Dataset Information
 * You may download the dataset from Google Drive (~93.4Mb): https://drive.google.com/file/d/1rQptCS65znAmWFyGK1MO4HjUcoxAnLA_/view?usp=drive_link
-  * Please unzip the files and place it under the data directory.
+  * Please unzip the files and place them in the data directory.
 * The experiment utilized six real-world market datasets (U.S., KR, Crypto, CN, JP, U.K.).
 * Three datasets are publicly accessible through the provided URLs. We have updated the data period and the number of assets existing in the dataset for the purpose of enabling extensive experimentation with the longer test period to check the robustness, and with a larger action space to check the ability for dynamic selection.  
   * The CN stock market dataset comprised **34** stocks from https://github.com/TradeMaster-NTU/TradeMaster
-  * The JP stock market dataset comprised **118** stocks from https://datalab.snu.ac.kr/dtml/#datasets
-  * The U.K. stock market dataset consists of **21** stocks from https://datalab.snu.ac.kr/dtml/#datasets
+  * The JP stock market dataset comprised **118** stocks from https://datalab.snu.ac.kr/dtml/\#datasets
+  * The U.K. stock market dataset consists of **21** stocks from https://datalab.snu.ac.kr/dtml/\#datasets
 * Instead of relying on publicly accessible datasets, we employed three more datasets to assess the model's capacity to select valuable assets from a significantly large pool of market assets. Adhering to the data redistribution policies of the data sources, we are unable to publicly release these market datasets. 
   * The U.S. stock market dataset comprised **224** stocks and was sourced from https://wrds-www.wharton.upenn.edu/pages/about/data-vendors/center-for-research-in-security-prices-crsp/
   * The KR stock market dataset encompassed **528** stocks and was gathered from https://finance.yahoo.com/
