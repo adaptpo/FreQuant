@@ -1,4 +1,4 @@
-name: dpdist
+name: frequant
 channels:
   - pytorch
   - nvidia
