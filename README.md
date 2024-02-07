@@ -24,8 +24,8 @@ This folder contains the code for FreQuant, an effective method for portfolio op
 * The experiment utilized six real-world market datasets (U.S., KR, Crypto, CN, JP, U.K.).
 * Three datasets are publicly accessible through the provided URLs. We have updated the data period and the number of assets existing in the dataset for the purpose of enabling extensive experimentation with the longer test period to check the robustness, and with a larger action space to check the ability for dynamic selection.  
   * The CN stock market dataset comprised **34** stocks from https://github.com/TradeMaster-NTU/TradeMaster
-  * The JP stock market dataset comprised **118** stocks from https://datalab.snu.ac.kr/dtml/\#datasets
-  * The U.K. stock market dataset consists of **21** stocks from https://datalab.snu.ac.kr/dtml/\#datasets
+  * The JP stock market dataset comprised **118** stocks from https://datalab.snu.ac.kr/dtml/#datasets
+  * The U.K. stock market dataset consists of **21** stocks from https://datalab.snu.ac.kr/dtml/#datasets
 * Instead of relying on publicly accessible datasets, we employed three more datasets to assess the model's capacity to select valuable assets from a significantly large pool of market assets. Adhering to the data redistribution policies of the data sources, we are unable to publicly release these market datasets. 
   * The U.S. stock market dataset comprised **224** stocks and was sourced from https://wrds-www.wharton.upenn.edu/pages/about/data-vendors/center-for-research-in-security-prices-crsp/
   * The KR stock market dataset encompassed **528** stocks and was gathered from https://finance.yahoo.com/
